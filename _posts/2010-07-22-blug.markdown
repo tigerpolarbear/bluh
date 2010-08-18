@@ -1,0 +1,8 @@
+---
+layout: post
+title: My new bluh
+---
+
+I just rigged up a series of ropes and gear and contraptionery to make this blog work. Nothing special, just some statically generated pages using my good friend [jekyll](http://jekyllrb.com/). A code-wizard, and my friend, [John Hawthorn](http://johnhawthorn.com) suggested I look into it. Every time I've ever written a simple static HTML generator, jekyll should have been there for me. I've basically written a worse rendition of its functionality ten or fifteen times over. Geez.
+
+My someday when I'm bored, I'll also rig up that whole [disqus](http://disqus.com/) thing, but for now this will do. Stay Tuesday-tuned.

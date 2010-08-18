@@ -1,0 +1,10 @@
+---
+layout: post
+title: I just made my first iPhone app!
+---
+
+In between trips to Vancouver, my real job, and all kinds of other shenanigans, I managed to sit down for a whole half-hour and run through Apple's delightful little "Hello, World" tutorial for iPhone app making. It was cute, seriously. Look at what I made!
+
+That's pretty impressive, eh? I bet you wish you could do that. Yeah... no. Time to make a real app, I guess.
+
+![Hello, World app](http://bluh.tigerpolarbear.com/img/helloworldapp.png)

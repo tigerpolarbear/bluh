@@ -4,15 +4,32 @@
 	<head>
 		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
 		<meta name="viewport" content="width = 750">
-		<link rel="stylesheet" type="text/css" href="css/stylesheet.css" charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="http://bluh.tigerpolarbear.com/css/stylesheet.css" charset="utf-8">
 		<title>{{ page.title }}</title>
 	</head>
 	<body>
-		<p id="title"><a id="textz">Tiger/Polar Bear</a></p>
-		<p><span id="textz">Codes, tunes, art... games.</span></p>
-		{% for post in site.posts %} 
-		<p id="postname"><a id="textz" href="{{ post.url }}">{{ post.title }}</a></p>
-		{% endfor %}
-		<p><span id="textx">Copyright 2010 Jared Norman</span></p>
+		<div id="biggest">
+			<div id="header">
+				<a href="http://bluh.tigerpolarbear.com"><img src="http://bluh.tigerpolarbear.com/banner.png" /></a>
+			</div>
+			<div id="left">
+				<h1>about me</h1>
+				<p>A Computer Science hero, my inner workings are naught but bit shifts and pointer arithmetic magic. I spit KLOCs and bleed ones and zeros. Get in on me: <a href="http://tigerpolarbear.tumblr.com/">tumblr</a> <a href="http://www.last.fm/user/tigerpolarbear">last.fm</a> <a href="http://twitter.com/tigerpolarbear">twitter</a> <a href="http://github.com/tigerpolarbear">github</a> <a href="http://ca.linkedin.com/in/tigerpolarbear">linkedin</a> <a href="mailto:tiger.polarbear@gmail.com">electronic mail</a>!</p>
+				<h1>archives</h1>
+				<p>
+					{% for post in site.posts %} 
+					<a href="http://bluh.tigerpolarbear.com{{ post.url }}">{{ post.title }}</a><br>
+					{% endfor %}
+				</p>
+			</div>
+			<div id="right">
+				<a href=""><h1>{{ site.posts[0].title }}</h1></a>
+				{{ site.posts[0].content }}
+				<p id="date">{{ site.posts[0].date | date_to_string }}</p>
+			</div>
+			<div id="footer">
+				<p>copyright 2010 Jared Norman</p>
+			</div>
+		</div>
 	</body>
 </html>

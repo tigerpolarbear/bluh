@@ -1,0 +1,16 @@
+---
+layout: post
+title: Ludum Dare 48
+---
+
+Competitions like the [Ludum Dare 48 Hour Game Design Competition](http://www.ludumdare.com/) and the now dead 72 Hour Game Design Competition that [Jeff Verkoeyen](http://jeffverkoeyen.com/timeline) used to put together are super rad. I intend thrash out an entry for the upcoming LD48.
+
+These competitions are something that is *totally and completely spiffy for the indie game community*. They give people a nice little deadline for (basically) prototyping a game. Woo! Lots of games get made. Most are shit; some are super rad, like [Phil Hassey's](http://www.philhassey.com/blog/) [Galcon](http://www.galcon.com/), which ended up craaazy successful.
+
+Both these competitions have roughly the same format: people submit themes, people vote on themes, a theme wins and a bunch of nerdy twenty-somethings have $TIMELIMIT to make a game, everyone votes and winners are declared.
+
+Great! Fun for all! Except that the themes suck. Competitors vote for themes for logical reasons, and that is lame. Votes go to themes for which people have ideas, instead of ideas that necessarily lead to innovative gameplay. I really think it's a spot where democracy doesn't fit.
+
+As such, I'd like to see something like the 72h GDC, with 3-person teams, 72 hour time-limit, and so on, but run less democratically.
+
+Who knows? Maybe I'll put it together one day. For now, I'll prepare for the coming Ludum Dare.
